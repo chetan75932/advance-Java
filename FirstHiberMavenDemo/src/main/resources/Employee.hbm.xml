@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM 
+"hibernate-mapping-3.0.dtd">
+  <hibernate-mapping>
+  <class name="com.demo.model.Emp" table="emptab">
+    <id name="EmpID">
+    <generator class="assigned"></generator>
+    </id>
+    <property name="EmpName" type="string"></property>
+     <property name="sal" type="double"></property>
+     <property name="mobile" type="string"></property>
+  </class>
+</hibernate-mapping>
+  
